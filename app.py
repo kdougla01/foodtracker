@@ -1,6 +1,7 @@
 from flask import Flask, render_template, g, request
 from datetime import datetime
 from database import connect_db, get_db
+# this is an example code change
 
 app = Flask(__name__)
 
